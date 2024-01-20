@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+#stopwatch {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#lapTimes {
+    font-size: 1.2em;
+    text-align: left;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#lapTimes div {
+    margin-bottom: 5px;
+}
